@@ -12,12 +12,12 @@ import FooterSection from '@/components/FooterSection.vue';
 <template>
   <SkipSection/>
   <HeaderSection/>
-  <main>
+  <main id="main" role="main">
     <IntroSection/>
     <SkillSection/>
     <SiteSection/>
     <PortSection/>
     <ContactSection/>
   </main>
-<FooterSection/>
+  <FooterSection/>
 </template>
